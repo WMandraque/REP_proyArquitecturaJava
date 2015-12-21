@@ -1,12 +1,12 @@
-document.getElementById("btnInsertar").onclick = function() 
+document.getElementById("frmInsertarLibro").onsubmit = function() 
 {
-	
 	if (document.getElementById("txtIsbn").value == "")
 	{
 		alert("Isbn vacio");
+		return;
 	}
 	else
 	{
-	   document.frmInsertarLibro.submit();	
+	   document.getElementById("frmInsertarLibro").submit();	
 	}
 }
