@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
@@ -11,7 +12,7 @@
 <body>
 	<h1>Formulario Alta Libro</h1>
 
-	<form action="destino.html" id="frmInsertarLibro" name="frmInsertarLibro">
+	<form action="insertaLibro.jsp" id="frmInsertarLibro" name="frmInsertarLibro" method="post">
 		<fieldset>
 		<legend>Formulario de Alta de Libros</legend>
 			<p /> <label for="txtIsbn">ISBN:</label> <input type="text" name="txtIsbn" id="txtIsbn" />
